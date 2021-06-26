@@ -9,7 +9,7 @@ interface Personaje{
     nombre : string;
     hp:number;
     habilidades:string[];
-    puebloNatal?:string;
+    puebloNatal?:string;// ? significa que es una propiedad opcional
 }
 
 

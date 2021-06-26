@@ -17,7 +17,8 @@ function multiplicar(num:number, base:number = 2, num2?:number):number{
 interface Personajee{
     nombre:string;
     pv:number;
-    mostrarHp:()=>void
+    mostrarHp:()=>void;
+    
 }
 
 function curar(personaje:Personajee, curarHP:number):void {
